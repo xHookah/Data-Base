@@ -45,4 +45,4 @@ if __name__ == "__main__":
     username = input("Username: ")
     password = input("Password: ")
 
-    a = checker(email, username, password).validate()
+    checker(email, username, password).validate()
